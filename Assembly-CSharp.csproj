@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\MoveShooting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
