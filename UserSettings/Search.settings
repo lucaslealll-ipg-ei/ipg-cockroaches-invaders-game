@@ -8,34 +8,11 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.310DEAF1" = "unlit"
-	"OpenInspectorPreview.310DEAF1" = "0"
-	"currentGroup.310DEAF1" = "settings"
 }
 providers = {
-	log = {
-		active = false
-		priority = 210
-		defaultAction = null
-	}
-	profilermarkers = {
-		active = false
-		priority = 100
-		defaultAction = null
-	}
 	scene = {
 		active = true
 		priority = 50
-		defaultAction = null
-	}
-	find = {
-		active = true
-		priority = 25
-		defaultAction = null
-	}
-	store = {
-		active = true
-		priority = 100
 		defaultAction = null
 	}
 	asset = {
@@ -43,14 +20,9 @@ providers = {
 		priority = 25
 		defaultAction = null
 	}
-	adb = {
+	log = {
 		active = false
-		priority = 2500
-		defaultAction = null
-	}
-	performance = {
-		active = false
-		priority = 100
+		priority = 210
 		defaultAction = null
 	}
 	packages = {
@@ -58,11 +30,35 @@ providers = {
 		priority = 90
 		defaultAction = null
 	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	find = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
 }
 objectSelectors = {
 }
 recentSearches = [
-	"u"
 ]
 searchItemFavorites = [
 ]

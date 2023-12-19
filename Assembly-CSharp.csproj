@@ -61,6 +61,9 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\MoveShooting.cs" />
+    <Compile Include="Assets\MoveShot.cs" />
+    <Compile Include="Assets\RandomRotator.cs" />
+    <Compile Include="Assets\DestroyByContact.cs" />
     <Compile Include="Assets\DestroyByBoundary.cs" />
   </ItemGroup>
   <ItemGroup>
