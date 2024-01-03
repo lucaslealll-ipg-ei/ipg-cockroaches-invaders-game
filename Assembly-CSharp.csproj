@@ -64,7 +64,9 @@
     <Compile Include="Assets\MoveShot.cs" />
     <Compile Include="Assets\RandomRotator.cs" />
     <Compile Include="Assets\DestroyByContact.cs" />
+    <Compile Include="Assets\DestroyByTime.cs" />
     <Compile Include="Assets\DestroyByBoundary.cs" />
+    <Compile Include="Assets\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

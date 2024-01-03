@@ -334,6 +334,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/DestroyByBoundary.cs"
 "Assets/DestroyByContact.cs"
+"Assets/DestroyByTime.cs"
+"Assets/GameController.cs"
 "Assets/MoveShooting.cs"
 "Assets/MoveShot.cs"
 "Assets/PlayerController.cs"
