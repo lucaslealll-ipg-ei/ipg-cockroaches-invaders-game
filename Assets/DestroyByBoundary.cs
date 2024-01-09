@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class DestroyByBoundary : MonoBehaviour
 {
+    private GameController gameController;
+
     void OnTriggerExit(Collider other)
-    {
+    {        
+        gameController.SubtractScore();
         Destroy(other.gameObject);
-        Debug.Log(other.name);
+        //Debug.Log(other.name);
     }
 
 }
