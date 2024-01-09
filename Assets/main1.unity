@@ -577,10 +577,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781c10b240008bc48ac9a1607b1aaf61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hazard: {fileID: 5941731928846346705, guid: 4e74d272dc48dcd41b8ee9b748024c1a, type: 3}
+  hazards:
+  - {fileID: 2983506405126935129, guid: b7647e513eee3f4419ebce676b775de0, type: 3}
+  - {fileID: 6822450474570427828, guid: 7bc73509a0aa61241a0252d33b125b18, type: 3}
   spawnValues: {x: 6.5, y: 0, z: 8.76}
-  hazardCount: 10
-  spawnWait: 0.75
+  hazardCount: 3
+  spawnWait: 1
   startWait: 0
   waveWait: 2
 --- !u!4 &938897488
@@ -608,7 +610,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7b04c59dd84f14039b601e1abbe7b884, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f53c58d03f6474442bb9ca1e3f975559, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
