@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     public float fireRate;
 
+    public float rotation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +38,7 @@ public class PlayerController : MonoBehaviour
         rb.position = new Vector3(Mathf.Clamp(rb.position.x, xmin, xmax), 0, Mathf.Clamp(rb.position.z, 0, zmax));
 
         // rodar a nave de acordo com a velocidade
-        rb.rotation = Quaternion.Euler(0,0,-(rb.velocity.x*tilt));
+        rb.rotation = Quaternion.Euler(0,rotation,-(rb.velocity.x*tilt));
     }
 
     void Update()
