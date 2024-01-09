@@ -13,7 +13,11 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
         StartCoroutine (SpawnWaves());
+=======
+        StartCoroutine(SpawnWaves());
+>>>>>>> parent of 8db7b3fe (added score, restart and game over)
     }
 
     IEnumerator SpawnWaves()
