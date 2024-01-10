@@ -31,8 +31,7 @@ public class DestroyByContact : MonoBehaviour
         }
         else if(other.tag == "Shot"){
             //instanciar explosão shot/asteroid
-            Instantiate(explosion,transform.position,transform.rotation);
-            Debug.Log("EXPLODEEEE");      
+            Instantiate(explosion,transform.position,transform.rotation);     
         }
         else if(other.tag == "Player")
         {
