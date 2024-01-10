@@ -8,7 +8,7 @@ public class DestroyByBoundary : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {        
-        gameController.SubtractScore();
+        // gameController.SubtractScore();
         Destroy(other.gameObject);
         //Debug.Log(other.name);
     }
