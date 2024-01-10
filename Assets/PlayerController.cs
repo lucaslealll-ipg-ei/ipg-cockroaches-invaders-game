@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         rb.position = new Vector3(Mathf.Clamp(rb.position.x, xmin, xmax), 0, Mathf.Clamp(rb.position.z, 0, zmax));
 
         // rodar a nave de acordo com a velocidade
-        rb.rotation = Quaternion.Euler(0,rotation,-(rb.velocity.x*tilt));
+        rb.rotation = Quaternion.Euler(-(rb.velocity.x * tilt), rotation, 0);
     }
 
     void Update()
