@@ -74,7 +74,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 120
+=======
+  controlID: 42
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +96,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1188
     y: 0
+<<<<<<< HEAD
     width: 348
     height: 730.8
+=======
+    width: 435
+    height: 939
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -486,9 +495,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 985f0000
     m_LastClickedID: 24472
     m_ExpandedIDs: 00000000905f0000925f0000945f0000965f0000985f000000ca9a3b
+=======
+    m_SelectedIDs: ce5d0000
+    m_LastClickedID: 24014
+    m_ExpandedIDs: 00000000c65d0000c85d0000ca5d0000cc5d0000ce5d000000ca9a3b
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,7 +531,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000905f0000925f0000945f0000965f0000985f0000
+=======
+    m_ExpandedIDs: 00000000c65d0000c85d0000ca5d0000cc5d0000ce5d0000
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -658,7 +677,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 3e5d0000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 7cd8fcffecdbfcff0cdcfcffc2f9ffff165d0000
+=======
+      m_ExpandedIDs: 1cf9ffff
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1112,9 +1135,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 492.80002
     width: 1187
     height: 290.59998
+=======
+    y: 612
+    width: 1484
+    height: 379
+>>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
