@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RandomRotator : MonoBehaviour
 {
-
     public Rigidbody rb;
     public float tumble = 1;
     // Start is called before the first frame update
@@ -12,6 +11,4 @@ public class RandomRotator : MonoBehaviour
     {
         rb.angularVelocity = Random.insideUnitSphere * tumble;
     }
-
-
 }
