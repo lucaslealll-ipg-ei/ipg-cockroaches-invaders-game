@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ipg_sm-UnitySpaceShooter.sln"
+    "dotnet.defaultSolution": "nivel2.sln"
 }

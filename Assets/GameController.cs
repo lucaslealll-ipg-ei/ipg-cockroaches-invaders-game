@@ -40,7 +40,6 @@ public class GameController : MonoBehaviour
 
     public void AddScore(int x)
     {
-<<<<<<< HEAD
         //Se o game não acabou alterar o score
         if(!gameOver)
         {
@@ -55,19 +54,6 @@ public class GameController : MonoBehaviour
             }
         }
 
-=======
-        score += 10;
-        WriteScore();
-    }
-
-    public void SubtractScore()
-    {
-        score -= 20;
-        WriteScore();
-
-        if (score < 0)
-            GameOver();
->>>>>>> a8be8f956d66141c9f33a9c453b9fecd958277c8
     }
 
     void WriteScore()

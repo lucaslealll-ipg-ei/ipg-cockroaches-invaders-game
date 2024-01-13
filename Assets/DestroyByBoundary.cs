@@ -28,7 +28,6 @@ public class DestroyByBoundary : MonoBehaviour
         //Qualquer coisa que saia da boundary, exceto Shot, retirar 10 pontos
         if (other.tag != "Shot"){
             gameController.AddScore(subtractScore);
-            print("Não é um shot"+other.tag);
         }
         // Destroy the shot object.
         Destroy(other.gameObject);
