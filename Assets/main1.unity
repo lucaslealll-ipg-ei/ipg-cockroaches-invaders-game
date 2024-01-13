@@ -892,6 +892,7 @@ MonoBehaviour:
   scoreText: {fileID: 1369803510}
   gameOverText: {fileID: 1436260350}
   restartText: {fileID: 116295082}
+  gameOver: 0
 --- !u!224 &938897488
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1864,7 +1865,7 @@ GameObject:
   - component: {fileID: 2083612542}
   m_Layer: 0
   m_Name: shotSpawn
-  m_TagString: Shot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

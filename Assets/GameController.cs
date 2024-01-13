@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI  gameOverText;
     public TextMeshProUGUI  restartText;
 
-    private bool gameOver;
+    public bool gameOver;
     private int score;
     private bool restart;
 
@@ -38,19 +38,22 @@ public class GameController : MonoBehaviour
         StartCoroutine(SpawnWaves());
     }
 
-    public void AddScore()
+    public void AddScore(int x)
     {
-        score += 10;
-        WriteScore();
-    }
+        //Se o game não acabou alterar o score
+        if(!gameOver)
+        {
+            score += x;
+            WriteScore();
 
-    public void SubtractScore()
-    {
-        score -= 20;
-        WriteScore();
+            if (score < 0)
+            {
+                score=0;
+                WriteScore();
+                GameOver();
+            }
+        }
 
-        if (score < 0)
-            GameOver();
     }
 
     void WriteScore()
