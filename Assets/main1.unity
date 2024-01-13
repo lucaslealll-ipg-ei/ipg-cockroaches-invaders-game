@@ -753,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56654887cd1143e44a4a188fa8db7980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  subtractScore: -10
 --- !u!1 &846674798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,7 +1651,7 @@ MonoBehaviour:
   zmax: 3
   speed: 10
   tilt: 3
-  shot: {fileID: 2536406692325087589, guid: a68bd23810ac339498b5ebe414a3838d, type: 3}
+  shot: {fileID: 7663373845851657737, guid: 23453cd6cbab86441ad7db180f99e2de, type: 3}
   shotSpawn: {fileID: 2083612542}
   fireRate: 0.35
   rotation: -90

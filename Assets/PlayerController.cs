@@ -27,14 +27,10 @@ public class PlayerController : MonoBehaviour
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
 
         if(gameControllerObject != null)
-        {
             gameController = gameControllerObject.GetComponent<GameController>();
-        }
 
         if(gameController == null )
-        {
             Debug.Log("Cannot find 'GameController' script");
-        }
     }
 
     // Update is called once per frame
@@ -55,7 +51,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {   
         //Se der gameOver, não pode deixar mais atirar
-        if(!gameController.gameOver){
+        if(!gameController.gameOver)
+        {
             if (Input.GetButton("Fire1") && Time.time > nextFire)
             {
                 nextFire = Time.time + fireRate;

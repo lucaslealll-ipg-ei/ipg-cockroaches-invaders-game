@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -4146707244956916682}
   m_Layer: 0
   m_Name: BugSpecialHItWalk
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

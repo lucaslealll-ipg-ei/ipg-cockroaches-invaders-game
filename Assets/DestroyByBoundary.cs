@@ -11,24 +11,24 @@ public class DestroyByBoundary : MonoBehaviour
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
-
+    
+        // Verifica se o objeto do GameController foi encontrado
+        // Obtém o componente GameController do objeto do GameController encontrado
         if (gameControllerObject != null)
-        {
             gameController = gameControllerObject.GetComponent<GameController>();
-        }
 
+        // Verifica se o componente GameController foi encontrado
+        // Exibe uma mensagem de log indicando que o script 'GameController' não pode ser encontrado
         if (gameController == null)
-        {
             Debug.Log("Cannot find 'GameController' script");
-        }
     }
 
     void OnTriggerExit(Collider other)
     {
         //Qualquer coisa que saia da boundary, exceto Shot, retirar 10 pontos
-        if (other.tag != "Shot"){
+        if (other.tag != "Shot")
             gameController.AddScore(subtractScore);
-        }
+
         // Destroy the shot object.
         Destroy(other.gameObject);
     }
