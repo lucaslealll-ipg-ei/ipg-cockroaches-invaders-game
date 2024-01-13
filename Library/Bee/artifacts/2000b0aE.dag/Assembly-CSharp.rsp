@@ -336,6 +336,7 @@
 "Assets/DestroyByContact.cs"
 "Assets/DestroyByTime.cs"
 "Assets/GameController.cs"
+"Assets/MoveHazard.cs"
 "Assets/MoveShooting.cs"
 "Assets/MoveShot.cs"
 "Assets/Nokobot/Sci-Fi_Crossbow/Demo/Scripts/CrossbowShoot.cs"

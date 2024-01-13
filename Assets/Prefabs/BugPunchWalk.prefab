@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: -8110094624443098228}
   - component: {fileID: 1930193238468924499}
   - component: {fileID: -3620887914073558403}
-  - component: {fileID: 2014430427822127811}
   - component: {fileID: -1224817137504037490}
+  - component: {fileID: -9196389010223280210}
   m_Layer: 0
   m_Name: BugPunchWalk
   m_TagString: Untagged
@@ -118,20 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 3}
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
---- !u!114 &2014430427822127811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2983506405126935129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8fe37396f7be574194b3e7c8700910d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: -8110094624443098228}
-  speed: -1
 --- !u!95 &-1224817137504037490
 Animator:
   serializedVersion: 5
@@ -153,6 +139,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-9196389010223280210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983506405126935129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3014f8674b359b24b85aff46d175d84a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rbHazard: {fileID: -8110094624443098228}
+  hazardSpeed: -1
 --- !u!1 &5014812439122047617
 GameObject:
   m_ObjectHideFlags: 0

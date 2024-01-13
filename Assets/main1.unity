@@ -381,7 +381,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.25
+  m_Intensity: 1.98
   m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -883,6 +883,8 @@ MonoBehaviour:
   - {fileID: 2983506405126935129, guid: b7647e513eee3f4419ebce676b775de0, type: 3}
   - {fileID: 6822450474570427828, guid: 7bc73509a0aa61241a0252d33b125b18, type: 3}
   spawnValues: {x: 6.5, y: 0, z: 8.76}
+  spwValueX: 0
+  lastSpwValueX: 0
   hazardCount: 3
   spawnWait: 1
   startWait: 0
@@ -1648,7 +1650,7 @@ MonoBehaviour:
   zmax: 3
   speed: 10
   tilt: 3
-  shot: {fileID: 7663373845851657737, guid: 7e6081cbd119a6a4b8b08085de11d92a, type: 3}
+  shot: {fileID: 2536406692325087589, guid: a68bd23810ac339498b5ebe414a3838d, type: 3}
   shotSpawn: {fileID: 2083612542}
   fireRate: 0.35
   rotation: -90
