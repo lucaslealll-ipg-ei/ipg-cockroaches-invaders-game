@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject shot;
     public Transform shotSpawn;
+    private GameController gameController;
 
     private float nextFire;
 
@@ -23,7 +24,17 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+
+        if(gameControllerObject != null)
+        {
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+
+        if(gameController == null )
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
     }
 
     // Update is called once per frame
@@ -42,12 +53,15 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {
-        if (Input.GetButton("Fire1") && Time.time > nextFire)
-        {
-            nextFire = Time.time + fireRate;
-            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-            GetComponent<AudioSource>().Play();
+    {   
+        //Se der gameOver, não pode deixar mais atirar
+        if(!gameController.gameOver){
+            if (Input.GetButton("Fire1") && Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+                GetComponent<AudioSource>().Play();
+            }
         }
     }
 }

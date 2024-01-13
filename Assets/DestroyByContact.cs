@@ -9,6 +9,8 @@ public class DestroyByContact : MonoBehaviour
 
     private GameController gameController;
 
+    public int addScore = 10;
+
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -30,20 +32,21 @@ public class DestroyByContact : MonoBehaviour
             return;
         }
         else if(other.tag == "Shot"){
-            //instanciar explosão shot/asteroid
-            Instantiate(explosion,transform.position,transform.rotation);     
+            //instanciar explosão formiga/shot
+            Instantiate(explosion,transform.position,transform.rotation);
+            //Adicionar pontos
+            gameController.AddScore(addScore);     
         }
         else if(other.tag == "Player")
         {
             //instanciar explosão do player
             Instantiate(explosion,other.transform.position,other.transform.rotation);
 
-            //gameover
             gameController.GameOver();
-        }
-
-        gameController.AddScore();
+        }     
+          
         Destroy(other.gameObject);
         Destroy(gameObject);
     }
+    
 }
