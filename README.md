@@ -1,12 +1,13 @@
 <a href="https://www.canva.com/design/DAF5xopJQYo/R-YwXKsj8iaOTJ6hXm_UGw/view?utm_content=DAF5xopJQYo&utm_campaign=designshare&utm_medium=link&utm_source=editor#1">
-   <img src="https://github.com/lucasoal/ipg_sm-UnityCockroachesInvaders/assets/69632369/e27e21b7-be58-43b2-b644-3499e24557fb" height="300px" style="display:block; margin:auto; border-radius:10px;">
+   <img src="https://github.com/lucasoal/ipg_sm-UnityCockroachesInvaders/assets/69632369/e27e21b7-be58-43b2-b644-3499e24557fb" style="display:block; margin:auto; border-radius:10px;">
 </a>
 
-> **Cockroaches Invaders** is a 2D physics-based game developed as part of the Multimedia Systems course assessment, 2023/2024, at Instituto Politécnico da Guarda.  
-> 
-> The goal is to annihilate giant cockroaches without allowing them to cross your defense line or hit you.
+<br>
 
-<img src="game_imgs/top_view_score.png" height="250px" style="display:block; margin:auto; border-radius:10px;">
+**Cockroaches Invaders** is a 2D physics-based game developed as part of the Multimedia Systems course assessment, 2023/2024, at Instituto Politécnico da Guarda.  
+ 
+The goal is to annihilate giant cockroaches without allowing them to cross your defense line or hit you.
+
 
 ## GAMEPLAY
 
@@ -16,6 +17,8 @@
 - `S` - Down
 - `D` - Right
 - `Spacebar` - Shoot
+
+<img src="game_imgs/top_view_score.png" height="250px" style="display:block; margin:auto; border-radius:10px;">
 
 **Game Overview**
 - **Objective**: Protect your territory against hordes of enemies using bow and arrows.  
