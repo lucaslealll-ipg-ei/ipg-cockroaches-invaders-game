@@ -22,6 +22,8 @@ The goal is to annihilate giant cockroaches without allowing them to cross your 
 
 <img src="game_imgs/top_view_score.png" height="250px" style="display:block; margin:auto; border-radius:10px;">
 
+<hr>
+
 **Game Overview**
 - **Objective**: Protect your territory against hordes of enemies using bow and arrows.  
 - **Enemies**:  
