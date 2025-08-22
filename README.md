@@ -11,6 +11,8 @@ The goal is to annihilate giant cockroaches without allowing them to cross your 
 
 ## GAMEPLAY
 
+### [🎥 *Video*](https://www.canva.com/design/DAF5xopJQYo/R-YwXKsj8iaOTJ6hXm_UGw/view?utm_content=DAF5xopJQYo&utm_campaign=designshare&utm_medium=link&utm_source=editor#10)
+
 **BUTTONS AND KEYS**
 - `W` - Up
 - `A` - Left
