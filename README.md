@@ -4,7 +4,7 @@
 
 <br>
 
-**Cockroaches Invaders** is a 2D/23 physics-based game developed as part of the Multimedia Systems course assessment, 2023/2024, at Instituto Politécnico da Guarda.  
+**Cockroaches Invaders** is a 2D/23 physics-based game developed as part of the **Multimedia Systems** course assessment, 2023/2024, at Ins**tituto Politécnico da Guarda**.  
  
 The goal is to annihilate giant cockroaches without allowing them to cross your defense line or hit you.
 
